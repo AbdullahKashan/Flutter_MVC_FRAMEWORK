@@ -1,0 +1,23 @@
+name: flutter_mvc_example
+description: Demonstrates how to use the flutter_mvc framework.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.3
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_mvc_framework:
+    path: ../
+  http: ^1.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
