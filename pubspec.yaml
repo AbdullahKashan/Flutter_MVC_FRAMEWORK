@@ -1,9 +1,9 @@
 name: flutter_mvc_framework
 description: A modular, robust, and batteries-included Model-View-Controller framework for Flutter with REST client, authentication, pagination, and state management.
 version: 1.0.0
-homepage: https://github.com/maxcore/flutter_mvc_framework
-repository: https://github.com/maxcore/flutter_mvc_framework
-issue_tracker: https://github.com/maxcore/flutter_mvc_framework/issues
+homepage: https://github.com/AbdullahKashan/Flutter_MVC_FRAMEWORK
+repository: https://github.com/AbdullahKashan/Flutter_MVC_FRAMEWORK
+issue_tracker: https://github.com/AbdullahKashan/Flutter_MVC_FRAMEWORK/issues
 
 topics:
   - mvc
