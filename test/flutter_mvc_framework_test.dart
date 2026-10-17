@@ -158,9 +158,9 @@ void main() {
       expect(await storage.read('token'), equals('abc123xyz'));
       expect(await storage.containsKey('token'), isTrue);
 
-      await storage.writeJson('profile', {'name': 'Antigravity'});
+      await storage.writeJson('profile', {'name': 'Demo User'});
       final profile = await storage.readJson('profile');
-      expect(profile?['name'], equals('Antigravity'));
+      expect(profile?['name'], equals('Demo User'));
 
       await storage.delete('token');
       expect(await storage.containsKey('token'), isFalse);

@@ -16,7 +16,7 @@ void main() async {
     {
       'id': 1,
       'name': 'Sarah Connor',
-      'email': 'sarah@skynet.dev',
+      'email': 'sarah.connor@example.com',
       'role': 'Admin',
     },
     {

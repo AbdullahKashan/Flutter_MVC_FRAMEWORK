@@ -356,7 +356,7 @@ import 'package:flutter_mvc_framework/flutter_mvc_framework.dart';
 void main() {
   test('Fetches team members', () async {
     final mock = MockClient((req) async {
-      return http.Response('[{"id": 1, "name": "Antigravity", "email": "ai@deepmind.com"}]', 200);
+      return http.Response('[{"id": 1, "name": "Demo User", "email": "demo@example.com"}]', 200);
     });
 
     await MVC.initialize(
@@ -368,7 +368,7 @@ void main() {
     final users = await repo.getUsers();
 
     expect(users.length, equals(1));
-    expect(users.first.name, equals('Antigravity'));
+    expect(users.first.name, equals('Demo User'));
   });
 }
 ```
